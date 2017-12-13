@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+}
+
+#app {
+    height: 100%;
+    width: 100%;
+}
+#toolbar{
+  margin: 5px;
+    float: left;
+    height: 40px; /* Optional */
+    width: 100%;
+}
+webview {
+  width: 100%;
+}
